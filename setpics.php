@@ -1,4 +1,4 @@
-<?php
+diee<?php
 //include "inccon.php";
 include "soudata/lib/sou_dbconnect.php";
 ?>
