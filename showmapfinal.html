@@ -1,0 +1,52 @@
+<html> 
+<head>
+<SCRIPT language="JavaScript1.2" src="efta_ttip.js" type="text/javascript""></SCRIPT>
+
+</head>
+<body> 
+<DIV id="tiplayer" style="visibility:hidden;position:absolute;z-index:1000;top:-100;"></DIV>
+
+<SCRIPT language="JavaScript1.2" >
+var mtip = new Array();
+
+Style[0]=["","","","","",,"#FFFFFF","#222222","","","",,250,,2,"#111111",2,24,0.5,0,2,"gray",,2,,13];
+// these are global settings
+var TipId="tiplayer";
+var FiltersEnabled = 0;
+mig_clay();
+</SCRIPT>
+
+
+<script language="Javascript"> 
+<!-- 
+
+function setCords(e) 
+{ 
+    x1234 = (document.all) ? window.event.x + document.body.scrollLeft : e.pageX; 
+    y1234 = (document.all) ? window.event.y + document.body.scrollTop : e.pageY; 
+     
+    x1234 -= document.getElementById("bild").offsetLeft; 
+    y1234 -= document.getElementById("bild").offsetTop; 
+
+    //mtip[0] = ["Koordinaten","x: " + (x1234-1000) + "\ny: " + (y1234+1000)];
+    //stm(mtip[0],Style[0]);
+    document.getElementById("bild").alt="x: " + (x1234-2250) + "\ny: " + (2250-y1234); 
+} 
+
+document.onmousemove = setCords; 
+
+function getCords() 
+{ 
+  //x = x - 1000;
+  //y = y + 1000;
+  alert("x: " + (x1234-2250) + "\ny: " + (2250-y1234)); 
+} 
+
+//--> 
+</script> 
+<br><br> 
+
+<img src="starskoordnew.png" id="bild" onclick="getCords()"> 
+
+</body> 
+</html>
